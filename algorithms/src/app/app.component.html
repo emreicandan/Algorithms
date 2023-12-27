@@ -1,0 +1,82 @@
+<div class="content">
+    <div>
+        <p>10-100 Arası Asal Sayıları Bulma Algoritması</p>
+        <button (click)="findPrimeNumber()">10-100 Arası Asal Sayıları Bul</button>
+        <div> {{arr|json}}</div>
+    </div>
+</div>
+    <hr>
+    <div class="content">
+        <div>
+            <div>1 ile 500 arasındaki tam sayılardan tek sayıların toplamı ile çift
+                sayıların toplamının farkı negatif mi, pozitif mi ?</div>
+            <button (click)="nOp()">Cevap</button>
+            <div> {{cevap}}</div>
+        </div>
+    </div>
+    <hr>
+<div class="content">
+<div>
+    26.12.2023
+    <p>1-Kenarları A,B,C,D olan bir dörtgenin kare olup olmadığını bulan programın algoritma.</p>
+    <input type="number" [(ngModel)]="a">
+    <input type="number" [(ngModel)]="b">
+    <input type="number" [(ngModel)]="c">
+    <input type="number" [(ngModel)]="d">
+    <div>{{isRectangle()}}</div>
+</div>
+<div>
+    <img src="assets/images/kare.jpg" alt="">
+</div>
+</div>
+<hr>
+<div class="content">
+    <div>
+        26.12.2023
+        <p>Dairenin alanını ve çevresini bulan programın algoritma.</p>
+        <input type="number" [(ngModel)]="r">
+        <div>{{calculateArea()}}</div>
+    </div>
+    <div>
+        <img src="assets/images/daire.jpg" alt="">
+    </div>
+</div>
+<hr>
+
+<div class="content">
+    <div>
+        27.12.2023
+        <p>Verilen sayı mükemmel sayı mı?</p>
+        <input type="number" [(ngModel)]="n">
+        <div>{{isPerfectNumber()}}</div>
+    </div>
+    <div>
+        <img src="assets/images/mukSayi.jpg" alt="">
+    </div>
+</div>
+<hr>
+
+<div class="content">
+    <div>
+        27.12.2023
+        <p>1-[1,10,2,30,3,15,4,5,12]</p>
+        <p>2-[2,3,5,30,12,4]</p>
+        <p>Verilen iki tane sayı dizisinden bir birlerine eşit olan sayıları yazdır.</p>
+        <div>Cevap: {{findingPartners()}}</div>
+    </div>
+    <div>
+        <img src="assets/images/mukSayi.jpg" alt="">
+    </div>
+</div>
+<hr>
+<div class="content">
+    <div>
+        27.12.2023
+        <p>Verilen bir sayının çarpım tablosunu oluşturan bir algoritma yaz.</p>
+        <input type="number" [(ngModel)]="value">
+        <div>Cevap: {{multiplication()}}</div>
+    </div>
+    <div>
+        <img src="assets/images/carpım.jpg" alt="">
+    </div>
+</div>
